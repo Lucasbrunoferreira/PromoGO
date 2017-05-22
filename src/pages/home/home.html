@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>PromoGo</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+   	<ion-grid>
+
+      <!-- Inicio do butao flutuante search -->
+       <ion-fab id="butao-flutuante">
+         <button ion-fab>  <ion-icon name="add"></ion-icon> </button>
+         <ion-fab-list side="left">
+           <button ion-fab> <ion-icon name="search" color="primary" id="icon-flut"></ion-icon> </button>
+           <button ion-fab> <ion-icon name="basket" color="primary" id="icon-flut"></ion-icon> </button>
+           <button ion-fab> <ion-icon name="cart" color="primary" id="icon-flut"></ion-icon> </button>
+         </ion-fab-list>
+         <ion-fab-list side="top">
+           <button ion-fab> <ion-icon name="home" color="primary" id="icon-flut"></ion-icon> </button>
+         </ion-fab-list>
+
+       </ion-fab>
+      <!-- Fim do butao flutuante search -->
+
+
+
+   		<!-- Inicio do Slider -->
+  		<ion-row>
+  			<div id="slide">
+  			    <ion-slides pager="true" autoplay="4500" loop="true">
+  			      <ion-slide>
+  			        <img src="img/bretas.png">
+  			      </ion-slide>
+  			      <ion-slide>
+  			        <img src="img/bernadao.png">
+  			      </ion-slide>
+  			      <ion-slide>
+  			        <img src="img/martminas.png">
+  			      </ion-slide>
+  			      <ion-slide>
+  			        <img src="img/smart.png">
+  			      </ion-slide>
+  			      <ion-slide>
+  			        <img src="img/extra.png">
+  			      </ion-slide>
+  			      <ion-slide>
+  			        <img src="img/abc.png">
+  			      </ion-slide>
+  			    </ion-slides>
+  			</div>
+  		</ion-row>
+  		<!-- Final do Slider -->
+
+  		<!-- Inicio dos butoes opcoes -->
+  	 	<ion-row>
+  	 		<ion-col col-4>
+  				<button ion-button round id="opcoes">Destaques</button>
+  			</ion-col>
+  			<ion-col col-4>
+  				<button ion-button round id="opcoes">Categorias</button>
+  			</ion-col>
+  			<ion-col col-4>
+  				<button ion-button round id="opcoes">Comercios</button>
+  			</ion-col>
+  		</ion-row>
+  		<!-- Fim -->
+
+
+  				 <!-- Fim -->
+         </ion-grid>
+
+</ion-content>

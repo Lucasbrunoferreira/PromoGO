@@ -1,0 +1,47 @@
+.auth-home {
+  background: #fff;
+  background-size: 100%;
+  background-position-y: 50%;
+
+  .logo {
+    height: 50%;
+    width: 100%;
+    .logo-icon {
+      text-align: center;
+      font-size: 40px;
+      padding-top: 30%;
+      color: white;
+    }
+  }
+
+  .sign-up-btn {
+    margin-top: 7%;
+    margin-left: 4%;
+    width: 60%;
+    font-size: 20px;
+  }
+
+  .log-in-btn {
+    margin-top: 7%;
+    margin-left: 4%;
+    width: 60%;
+    font-size: 20px;
+  }
+
+  .error {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(217, 74, 87);
+    p {
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+
+}
+
+.butoes{
+  text-align: center;
+}

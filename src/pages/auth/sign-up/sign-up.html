@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Crie uma conta
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="sign-up">
+
+
+  <form (ngSubmit)="register()" #signUpForm="ngForm">
+    <ion-list>
+      <ion-item>
+        <ion-input type="text" placeholder="E-mail" [(ngModel)]="form.email" name="name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="password" placeholder="Senha" [(ngModel)]="form.password" name="password"></ion-input>
+      </ion-item>
+
+      <h6>Data de Nascimento:</h6>
+      <ion-item>
+        <ion-input type="date"></ion-input>
+      </ion-item>
+
+    </ion-list>
+
+    <button ion-button block [disabled]="!signUpForm.form.valid"
+      class="sign-up-btn">Criar e entrar
+    </button>
+
+    <div padding class="error" *ngIf="error">
+      <p>{{error}}</p>
+    </div>
+  </form>
+</ion-content>

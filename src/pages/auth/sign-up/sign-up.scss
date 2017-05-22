@@ -1,0 +1,31 @@
+.sign-up {
+  background-size: 100%;
+  background-position-y: 50%;
+
+
+  form {
+    width: 95%;
+    margin: auto;
+
+    .sign-up-btn {
+      margin: auto;
+    }
+  }
+
+  .error {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(217, 74, 87);
+    p {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+h6{
+  position: relative;
+  left: 1.4em;
+  color: grey;
+}

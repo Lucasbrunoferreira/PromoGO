@@ -1,0 +1,30 @@
+<ion-content class="auth-home">
+  <div class="logo">
+    <div class="logo-icon">
+      <img src="img/logo.png">
+    </div>
+  </div>
+
+  <ion-grid class="butoes">
+    <ion-row>
+      <ion-col col-12>
+        <button ion-button color="primary" class="log-in-btn" (click)="openLoginPage()">Entrar</button>
+      </ion-col>
+
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <button ion-button color="primary" class="sign-up-btn" (click)="openSignUpPage()">Registrar</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+
+
+
+  <div padding class="error" *ngIf="error">
+    <p>{{error}}</p>
+  </div>
+
+</ion-content>
