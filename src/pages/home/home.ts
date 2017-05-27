@@ -15,4 +15,5 @@ export class HomePage {
     this.produtos = afDatabase.list('produtos');
 
   }
+  
 }
