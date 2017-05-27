@@ -43,7 +43,6 @@ export class AuthProvider {
           email: authData.auth.email,
           emailVerified: false,
           provider: 'email',
-          image: 'https://freeiconshop.com/files/edd/person-solid.png'
         });
         credentials.created = true;
         observer.next(credentials);

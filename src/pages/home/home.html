@@ -56,21 +56,28 @@
   		<!-- Final do Slider -->
 
   		<!-- Inicio dos butoes opcoes -->
-  	 	<ion-row>
-  	 		<ion-col col-4>
+  	 	<ion-row class="butoes">
+  	 		<ion-col>
   				<button ion-button round id="opcoes">Destaques</button>
-  			</ion-col>
-  			<ion-col col-4>
+  			</ion-col >
+  			<ion-col>
   				<button ion-button round id="opcoes">Categorias</button>
   			</ion-col>
-  			<ion-col col-4>
+  			<ion-col>
   				<button ion-button round id="opcoes">Comercios</button>
   			</ion-col>
   		</ion-row>
   		<!-- Fim -->
 
 
-  				 <!-- Fim -->
+      <p *ngFor="let produto of produtos | async">  {{ produto.nome2 }}</p>
+
+      <p *ngFor="let produto of produtos | async">   {{ produto.valor1 }}</p>
+
+      <p *ngFor="let produto of produtos | async">   </p>
+
+
+
          </ion-grid>
 
 </ion-content>

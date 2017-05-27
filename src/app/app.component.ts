@@ -10,6 +10,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { DataProvider } from '../providers/data';
 import { AuthProvider } from '../providers/auth';
 
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -54,7 +55,7 @@ export class MyApp {
       StatusBar.styleDefault();
     });
   }
-  
+
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario

@@ -18,14 +18,15 @@ import { AngularFireModule } from 'angularfire2';
 import { DataProvider } from '../providers/data';
 import { AuthProvider } from '../providers/auth';
 
+
 // Config. do Firebase
 export const firebaseConfig = {
-    apiKey: "AIzaSyDtBkolNV1S1OX25UAu-0AxiW5LktPvNW4",
-    authDomain: "promogo-ddf45.firebaseapp.com",
-    databaseURL: "https://promogo-ddf45.firebaseio.com",
-    projectId: "promogo-ddf45",
-    storageBucket: "promogo-ddf45.appspot.com",
-    messagingSenderId: "759262718675"
+  apiKey: "AIzaSyASOTEy3RVE7xvL8YCXOhB2ABKWLpJFCS8",
+  authDomain: "promogo-3c5ed.firebaseapp.com",
+  databaseURL: "https://promogo-3c5ed.firebaseio.com",
+  projectId: "promogo-3c5ed",
+  storageBucket: "promogo-3c5ed.appspot.com",
+  messagingSenderId: "492488720224"
 };
 
 @NgModule({
