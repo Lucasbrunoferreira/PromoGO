@@ -3,8 +3,6 @@ import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { ComercioPage } from '../pages/comercios/comercio';
-import { CategoriaPage } from '../pages/categorias/categorialob';
 import { HomePage } from '../pages/home/home';
 import { AuthPage } from '../pages/auth/home/home';
 
@@ -32,9 +30,7 @@ export class MyApp {
     };
 
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'Categoria', component: CategoriaPage },
-      { title: 'Comercio', component: ComercioPage }
+      { title: 'Home', component: HomePage }
 
     ];
   }

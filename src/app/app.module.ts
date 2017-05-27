@@ -8,8 +8,6 @@ import { AuthPage } from '../pages/auth/home/home';
 import { LoginEmailPage } from '../pages/auth/login-email/login-email';
 import { SignUpPage } from '../pages/auth/sign-up/sign-up';
 import { HomePage } from '../pages/home/home';
-import { ComercioPage } from '../pages/comercios/comercio';
-import { CategoriaPage } from '../pages/categorias/categorialob';
 import { TermsOfServicePage } from '../pages/terms-of-service/terms-of-service';
 
 // Modulo do Firebase p/ Angular
@@ -38,8 +36,6 @@ export const firebaseConfig = {
     LoginEmailPage,
     SignUpPage,
     HomePage,
-    CategoriaPage,
-    ComercioPage,
     TermsOfServicePage
   ],
   imports: [
@@ -54,8 +50,6 @@ export const firebaseConfig = {
     LoginEmailPage,
     SignUpPage,
     HomePage,
-    CategoriaPage,
-    ComercioPage,
     TermsOfServicePage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, DataProvider, AuthProvider]
